@@ -1,0 +1,38 @@
+ @media only screen and (min-width: 992px) {
+     .dis-sm {
+         display: none !important;
+     }
+ }
+ 
+ @media only screen and (max-width: 768px) {
+     .swiper-slide {
+         width: 96% !important;
+         margin-left: 20px;
+     }
+     .blog-sidebar {
+         margin-top: 55px;
+     }
+ }
+ 
+ @media only screen and (max-width: 991px) {
+     .dis-lg {
+         display: none !important;
+     }
+     .navbar-css {
+         background-color: white;
+     }
+     .btn-large {
+         min-width: 50px;
+         border-radius: 500px!important;
+         width: 50px !important;
+     }
+     .swiper-slide {
+         width: 50%;
+     }
+     .swiper-slide:nth-child(1n) {
+         width: 50%;
+     }
+     .blog-sidebar {
+         margin-top: 75px;
+     }
+ }
